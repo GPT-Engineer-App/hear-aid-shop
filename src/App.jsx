@@ -1,8 +1,17 @@
+import React from 'react';
+import HeroSection from './components/HeroSection';
+import ProductShowcase from './components/ProductShowcase';
+import Testimonials from './components/Testimonials';
+import ContactForm from './components/ContactForm';
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="App">
+      <HeroSection />
+      <ProductShowcase />
+      <Testimonials />
+      <ContactForm />
+    </div>
   );
 }
 
