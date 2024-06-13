@@ -25,7 +25,7 @@ const ContactForm = () => {
             <textarea placeholder="Your Message" className="textarea textarea-bordered"></textarea>
           </div>
           <div className="form-control mt-6">
-            <button className="btn btn-primary">Send Message</button>
+            <button className="btn" style={{ backgroundColor: '#e11e27' }}>Send Message</button>
           </div>
         </form>
       </div>
