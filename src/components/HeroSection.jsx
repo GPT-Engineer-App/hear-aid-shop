@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Welcome to EarX</h1>
           <p className="py-6">Your one-stop shop for the best hearing aids in the market.</p>
-          <button className="btn" style={{ backgroundColor: '#e11e27' }}>Shop Now</button>
+          <button className="btn" style={{ backgroundColor: '#e11e27' }}>SHOP NOW</button>
         </div>
       </div>
     </section>

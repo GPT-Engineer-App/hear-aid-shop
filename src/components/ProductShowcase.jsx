@@ -18,7 +18,7 @@ const ProductShowcase = () => {
                 <h3 className="text-2xl font-bold">{product.name}</h3>
                 <p>{product.description}</p>
                 <p className="text-xl font-semibold">{product.price}</p>
-                <button className="btn mt-4" style={{ backgroundColor: '#e11e27' }}>Buy Now</button>
+                <button className="btn mt-4" style={{ backgroundColor: '#e11e27' }}>BUY NOW</button>
               </div>
             </div>
           ))}
